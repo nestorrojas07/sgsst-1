@@ -146,7 +146,7 @@ if ( ! $_SESSION )
                 <?php include 'encabezado.php' ; ?>
 
 
-                <!--******************** INCLUYO  CONTENIDO DE LA PAGINA *****************************************--->        
+                     
 
                 <div class="page-title">
 
@@ -175,7 +175,7 @@ if ( ! $_SESSION )
 
                 </div>
 
-                <!--------------------->
+                
 
                 <div class="panel panel-default">
                     <div class="panel-heading">
@@ -222,8 +222,8 @@ if ( ! $_SESSION )
                     <div class="panel-body">
 
                         <div id="cuantos"></div><br>
-
-                        <table  class="table table-striped table-bordered table-responsive " id="example-3">
+                        <div class="table-responsive">
+                        <table  class="table table-striped table-bordered  " id="example-3">
                             <thead style="background-color:#F8F8F8;" >
                                 <tr>
                                     <th width="2%">#</th>
@@ -240,6 +240,7 @@ if ( ! $_SESSION )
                             </tbody>
 
                         </table>
+                        </div>
 
                     </div>
                 </div>
@@ -247,7 +248,7 @@ if ( ! $_SESSION )
 
 
 
-                <!--******************** FIN CONTENIDO DE LA PAGINA *****************************************--->        
+                       
 
 
                 <!-- Main Footer -->
